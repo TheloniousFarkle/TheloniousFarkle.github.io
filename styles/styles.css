@@ -1,6 +1,6 @@
 html{
 	background-color: #8B9E7F;
-	font-size: 10px;
+	font-size: 15px;
 	font-family:'Nunito', sans-serif;
 }
 body {
@@ -11,17 +11,13 @@ body {
   border: 30px solid black;
 }
 #shart{
-	color: red;
-	line-height: 2;
+	color: green;
 	width: 500px;
 	border: 2px solid black;
 }
 #shart:hover{
-	color: green;
-	line-height: 3;
-	letter-spacing: 3px;
-	width: 500px;
-	border: 2px solid black;
+	color: red;
+
 }
 h1{
 	margin: 0;
@@ -34,6 +30,9 @@ h1{
 h1:hover{
 	color: black;
 	text-shadow: 20px -30px 3px #F1FD06;
+}
+h2{
+	font-size: 25px;
 }
 img{
 	display:block;
