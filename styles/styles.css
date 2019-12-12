@@ -17,7 +17,6 @@ body {
 }
 #shart:hover{
 	color: red;
-
 }
 h1{
 	margin: 0;
@@ -34,12 +33,33 @@ h1:hover{
 h2{
 	font-size: 25px;
 }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 img{
+	cursor:pointer;
 	display:block;
 	margin: 0 auto;
-	
+	transform-origin: center;
 }
 img:hover{
-	-webkit-filter: invert(1);
-	filter: invert(1);
+	animation-name: rotate;
+	animation-duration: 0.6s;
+	animation-timing-function:linear;
+	animation-iteration-count: 5;
 }
+button{
+	cursor:pointer;
+}
+
+
+
+/*you comment like this*/
